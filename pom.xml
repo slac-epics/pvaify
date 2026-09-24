@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.phoebus</groupId>
     <artifactId>parent</artifactId>
-    <version>5.0.3-SNAPSHOT</version>
+    <version>5.0.5</version>
   </parent>
   <dependencies>
     <dependency>
@@ -16,17 +16,17 @@
     <dependency>
       <groupId>org.phoebus</groupId>
       <artifactId>core-pva</artifactId>
-      <version>5.0.3-SNAPSHOT</version>
+      <version>5.0.5</version>
     </dependency>
     <dependency>
       <groupId>org.phoebus</groupId>
       <artifactId>core-pv</artifactId>
-      <version>5.0.3-SNAPSHOT</version>
+      <version>5.0.5</version>
     </dependency>
     <dependency>
       <groupId>org.phoebus</groupId>
       <artifactId>core-pv-ca</artifactId>
-      <version>5.0.3-SNAPSHOT</version>
+      <version>5.0.5</version>
       <exclusions>
         <!-- trim epics-core -->
         <exclusion>
