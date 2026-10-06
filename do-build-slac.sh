@@ -6,5 +6,5 @@ cd "$(dirname "${BASH_SOURCE[0]}")"
 
 mvn -DskipTests=true clean package
 
-ln -s target/pvaify-*.jar pvaify.jar
-
+mkdir -p bin/$EPICS_HOST_ARCH
+cp -vf target/pvaify-*.jar bin/$EPICS_HOST_ARCH/pvaify.jar
